@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+
+</head> 
+<body>
+    <header class="topbar">
+      <nav class = "toplinks" aria-label = "Top links">
+        <div class = "toplink"><a href = "#" >Gmail</a></div>
+        <div class = "toplink"><a href = "#" >Images</a></div>
+        <button class = "avatar" aria-label="Sign in"></button>
+      </nav>
+    </header>
+    <main class = "main">
+      <img src = "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt = "Google Logo" class = "logo">
+      <form class = "search-form" action = "https://www.google.com/search" method="GET">
+        <div class = "search-bar">
+          <span class = "material-symbols-outlined search-icon">search</span>
+          <input type = "text" name="q" class="search-input" aria-label="Search">
+          <span class = "material-symbols-outlined mic-icon">mic</span>
+        </div>
+        <div class = "buttons">
+          <button type = "submit" class = "search-button">Google Search</button>
+          <button type = "submit" class = "image-search-button" formaction = "https://www.google.com/doodles">Google Image Search</button>
+          <button type = "submit" class = "advanced-search-button" formaction = "https://www.google.com/advanced_search">Advanced Search</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+        <div class = "left">
+            <div class = "intro"> <a href = "#">Introduction</a></div>
+            <div class="ads"><a href = "#">Advertisement</a></div>
+            <div class="business"><a href = "#">Business</a></div>
+            <div class="about"><a href = "#">About</a></div>
+        </div>
+        <div class = "right">
+            <div class="privacy"><a href = "#">Privacy</a></div>
+            <div class="terms"><a href = "#">Terms</a></div>    
+            <div class="settings"><a href = "#">Settings</a></div>
+        </div>
+      </footer>
+  </body>
+</html>
